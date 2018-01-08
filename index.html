@@ -135,7 +135,7 @@
 				<div class="card">
 					<div class="card-block">
 						<h4> Projects</h4> 
-						<small class = "availability">Code available on request </small>
+						<small class = "availability">Code available on request</small>
 						<br>
 						<br>
 						<!-- begin project 1 --> 
@@ -171,8 +171,23 @@
 						</p>
 						<hr />
 						<!-- end of project 2 --> 
-
-						<!-- begin project 3 --> 
+						<!-- start of project 3 --> 
+						<p id ="project-name" style="text-align:left;">
+							Concurrenty Producer Consumer 
+							<span style="float:right;">   <small class ="date"> October 2017 </small> </span>
+						</p>
+						<ul> 
+							<li>The goal of this project was to simulate concurrent producer and consumer threads working on a single buffer.</li>
+							<li>I implemented a threadsafe buffer using locks and condition variables.</li> 
+							<li>I then wrote the code to create threads that produced to and consumed from this buffer.</li> 
+							<li>The interactions with the buffer were also logged to an external file for debugging and to view.</li> 
+						</ul>
+						<p id = "tools" style = "text-align:center;">
+							C++, Vim, Terminal, Vagrant OS, GDB, Make
+						</p>
+						<hr />
+						<!-- end of project 3 --> 
+						<!-- begin project 4 --> 
 						<p id ="project-name" style="text-align:left;">
 							Anagram Classification 
 							<span style="float:right;">   <small class ="date"> October 2017 </small> </span>
@@ -186,9 +201,9 @@
 							Java, Sublime Text, Vim, Terminal, Mac OS
 						</p>
 						<hr />
-						<!-- end of project 3 --> 
+						<!-- end of project 4 --> 
 
-						<!-- start of project 4 --> 
+						<!-- start of project 5 --> 
 						<p id ="project-name" style="text-align:left;">
 							Simple Shell and OS Scheduling 
 							<span style="float:right;">   <small class ="date"> September 2017 </small> </span>
@@ -202,54 +217,8 @@
 							C++, Make, GDB, Vim, Terminal, Vagrant OS
 						</p>
 						<hr />
-						<!-- end of project 4 -->
-
-						<!-- start of project 5 --> 
-						<p id ="project-name" style="text-align:left;">
-							Bank Simulator 
-							<span style="float:right;">   <small class ="date"> April 2017 </small> </span>
-						</p>
-						<ul> 
-							<li>In this program I used the macros pipe(), read() and write() to communicate between a bank process and an ATM process.</li> 
-							<li>The goal was to execute instructions from a trace file and handle all the possible errors.</li>
-							<li>In addition to the errors provided by reading and writing files, errors regarding bank transactions also had to be handled properly.</li>
-						</ul>
-						<p id = "tools" style = "text-align:center;">
-							C, Make, GDB, Sublime Text, Linux
-						</p>
-						<hr />
 						<!-- end of project 5 -->
 
-						<!-- start of project 6 --> 
-						<p id ="project-name" style="text-align:left;">
-							Huffman Compression 
-							<span style="float:right;">   <small class ="date"> March 2017 </small> </span>
-						</p>
-						<ul> 
-							<li>This task used priority queues and bit manipulation in order to Huffman code text files for compression and decompression.</li> 
-						</ul>
-						<p id = "tools" style = "text-align:center;">
-							C, Make, GDB, Sublime Text, Linux
-						</p>
-						<hr />
-						<!-- end of project 6 -->
-
-						<!-- start of project 7 --> 
-						<p id ="project-name" style="text-align:left;">
-							Sudoku Solver 
-							<span style="float:right;">   <small class ="date"> November 2016 </small> </span>
-						</p>
-						<ul> 
-							<li> This project took a string of 81 consecutive digits or periods (meaning empty spaces) as input and produced a solved Soduku board (unless impossible).</li>
-							<li>Sudoku coordinates were mapped to lists of all possible values that could be placed at each square.</li> 
-							<li>When a value was placed at a certain coordinate, all of peers were constrained, narrowing the board significantly.</li> 
-							<li>When nothing else can be constrained, a randomly selected value was placed on the board to start narrowing more possibilities until a solved board was produced.</li> 
-						</ul>
-						<p id = "tools" style = "text-align:center;">
-							Scala, Sublime Text, Terminal
-						</p>
-						<hr />
-						<!-- end of project 7 --> 
 					</div>
 				</div>
 				<!-- end projects --> 
